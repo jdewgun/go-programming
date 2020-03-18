@@ -2,8 +2,6 @@
 Codecademy Project
 ------------------
 
-Project to try out some Conditional Loops
-
 */
 package main
 
