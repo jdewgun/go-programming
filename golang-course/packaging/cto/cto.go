@@ -2,14 +2,16 @@ package main
 
 import (
 	"fmt"
-	"github.com/jdewgun/go-programming/beginning-programming/packaging/developer"
+	dev "../developer"
 )
 
-func main () {
+func main() {
 	fmt.Println("CTO is now with the Developer")
 
-	developer.Code()
+	dev.Code()
 
-	developer.CoffeeBreak()
+	dev.CoffeeBreak()
+
+	dev.ReviewMR()
 
 }

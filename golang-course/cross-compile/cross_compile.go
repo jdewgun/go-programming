@@ -6,5 +6,9 @@ import (
 )
 
 func main () {
-	fmt.Printf("Current Runtime: %s\nCurrent Architecture: %s\n", runtime.GOOS, runtime.GOARCH )
+	fmt.Printf(
+		"Current Runtime: %s\nCurrent Architecture: %s\n",
+		runtime.GOOS,
+		runtime.GOARCH,
+	)
 }

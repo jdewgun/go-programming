@@ -11,5 +11,5 @@ func CoffeeBreak () {
 }
 
 func ReviewMR () {
-	fmt.Println("Developer is reviewing MR \n .... \n MR Done")
+	fmt.Println("Developer is reviewing MR\n .... \nMR Done")
 }

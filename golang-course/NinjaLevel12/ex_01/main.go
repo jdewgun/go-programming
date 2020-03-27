@@ -2,15 +2,16 @@ package main
 
 import (
 	"fmt"
+	dog "./dog"
 )
 
-type canine struct {
+type doggy struct {
 	name string
 	age  int
 }
 
 func main() {
-	fido := canine{
+	fido := doggy{
 		name: "Fido",
 		age:  dog.Years(10),
 	}
